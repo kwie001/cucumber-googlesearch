@@ -1,0 +1,30 @@
+{
+  "name": "JScucumber",
+  "version": "1.0.0",
+  "description": "TAU online course for cucumber.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katharina Wiebe",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "@wdio/cucumber-framework": "^6.3.6",
+    "@wdio/local-runner": "^6.3.6",
+    "@wdio/spec-reporter": "^6.3.6",
+    "@wdio/sync": "^6.3.6",
+    "chromedriver": "^84.0.1",
+    "cucumber": "^6.0.5",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.3.6",
+    "webdriverio": "^6.3.6"
+  }
+}
